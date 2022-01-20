@@ -189,9 +189,11 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/commentRV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:listitem="@layout/comment_item"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_marginTop="@dimen/_10sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -200,7 +202,7 @@
     <com.google.android.material.bottomappbar.BottomAppBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:backgroundTint="@color/black"
+        app:backgroundTint="@color/Dark"
         android:padding="@dimen/_10sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
