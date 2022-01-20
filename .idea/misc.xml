@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/at.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/like.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/message.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/yesteday_notification.xml" value="0.122" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/today_notification.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/yest.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/yesteday_notificstion.xml" value="0.16" />
       </map>
     </option>
   </component>

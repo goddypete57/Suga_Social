@@ -17,8 +17,10 @@
     <color name="blue">#2E8AF6</color>
     <color name="Dark">#181A1C</color>
     <color name="Light_White">#ECEBED</color>
-    <color name="ight_Gray">#000000</color>
     <color name="Gray">#727477</color>
+    <color name="Dark_Gray">#323436</color>
+    <color name="Light_Gray">#ECEBED</color>
+
 
 
 
