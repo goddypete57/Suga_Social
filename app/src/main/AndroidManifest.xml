@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Suga_Social">
         <activity
+            android:name=".MessageActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
