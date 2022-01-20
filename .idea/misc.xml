@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/ic_more_vert.xml" value="0.196" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/vector.xml" value="0.196" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/post_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>

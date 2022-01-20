@@ -54,4 +54,7 @@ dependencies {
     // In app alerts
     implementation "com.github.tapadoo:alerter:7.2.4"
 
+    // Circular Image
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
 }
