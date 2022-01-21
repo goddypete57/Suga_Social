@@ -7,6 +7,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/alert.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/attachments.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/audio.xml" value="0.2115" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/back.xml" value="0.1245" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/camera.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/cancel.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/comment_icon.xml" value="0.2115" />
@@ -22,24 +23,31 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/ic_like.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/ic_more_vert.xml" value="0.196" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/ic_share.xml" value="0.2115" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/image_followers.xml" value="0.141" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/image_icon.xml" value="0.2115" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/message.xml" value="0.141" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/message_notification.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/plus.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/plustab.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/profile.xml" value="0.2115" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/profile_message.xml" value="0.141" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/search.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/send.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/shape.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/drawable/vector.xml" value="0.196" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/activity_create_post.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/activity_general_profile.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/activity_message.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/comment_item.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/fragment_comment.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/fragment_feeds.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/fragment_message.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/fragment_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/message_item.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/post_image.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/post_item.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/profile_image.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Suga_Social/app/src/main/res/layout/story_item.xml" value="0.22" />
