@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Suga_Social">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".CreatePost"
+            android:exported="true" />
+        <activity
             android:name=".MessageActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".GeneralProfile"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

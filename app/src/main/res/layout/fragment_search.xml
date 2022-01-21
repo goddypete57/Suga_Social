@@ -211,7 +211,7 @@
                     app:layout_constraintTop_toBottomOf="@id/horizontal_scroll2"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:progressMode="false"
-                    app:selectedDotColor="@color/pink" />
+                    app:selectedDotColor="@color/pink"/>
 
 
                 <ImageView
