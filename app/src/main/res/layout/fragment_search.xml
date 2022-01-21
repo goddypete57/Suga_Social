@@ -10,8 +10,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-
         <EditText
             android:id="@+id/search"
             android:layout_width="374dp"
@@ -41,14 +39,95 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/search" />
 
+      <HorizontalScrollView
+          android:id="@+id/horizontal_scroll"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:singleLine="true"
+          android:layout_marginStart="@dimen/_20sdp"
+          android:layout_marginTop="@dimen/_15ssp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/popular">
+
+          <com.google.android.material.chip.ChipGroup
+              android:id="@+id/chipGroup"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+          <com.google.android.material.chip.Chip
+              android:id="@+id/chipCpp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:gravity="center"
+              android:textColor="@color/white"
+              app:chipBackgroundColor="@color/blue"
+              android:textSize="@dimen/_12sdp"
+              android:text="All"/>
+
+              <com.google.android.material.chip.Chip
+                  android:id="@+id/chipCpp2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center"
+                  android:textColor="@color/white"
+                  android:textSize="@dimen/_12sdp"
+                 android:layout_marginStart="@dimen/_8sdp"
+                  app:chipBackgroundColor="@color/transperant"
+                  android:text="Profile"/>
+
+              <com.google.android.material.chip.Chip
+                  android:id="@+id/chipCpp3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center"
+                  android:textColor="@color/white"
+                  android:textSize="@dimen/_12sdp"
+                  android:layout_marginStart="@dimen/_8sdp"
+                  android:paddingRight="@dimen/_15ssp"
+                  app:chipBackgroundColor="@color/transperant"
+                  android:text="Photos"/>
+              <com.google.android.material.chip.Chip
+                  android:id="@+id/chipCpp4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center"
+                  android:textSize="@dimen/_12sdp"
+                  android:textColor="@color/white"
+                  android:layout_marginStart="@dimen/_8sdp"
+                  android:paddingRight="@dimen/_15ssp"
+                  app:chipBackgroundColor="@color/transperant"
+                  android:text="Videos"/>
+
+              <com.google.android.material.chip.Chip
+                  android:id="@+id/chipCpp5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center"
+                  android:textSize="@dimen/_12sdp"
+                  android:layout_marginStart="@dimen/_8sdp"
+                  android:textColor="@color/white"
+                  android:paddingRight="@dimen/_15ssp"
+                  app:chipBackgroundColor="@color/transperant"
+                  android:text="Links"/>
+
+
+
+          </com.google.android.material.chip.ChipGroup>
+      </HorizontalScrollView>
+
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/popular">
+            app:layout_constraintTop_toBottomOf="@id/horizontal_scroll">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -89,24 +168,50 @@
                     app:layout_constraintTop_toBottomOf="@+id/usersName" />
 
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/card"
+                <HorizontalScrollView
+                    android:id="@+id/horizontal_scroll2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_16sdp"
-                    app:cardCornerRadius="@dimen/_15ssp"
-
-                    app:layout_constraintTop_toBottomOf="@id/userImage"
+                    android:layout_height="@dimen/_200sdp"
+                    app:singleLine="true"
+                    android:layout_marginTop="@dimen/_15ssp"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent">
-
+                    app:layout_constraintTop_toBottomOf="@id/userImage">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/pis"/>
-                </androidx.cardview.widget.CardView>
+                        android:src="@drawable/pis" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:src="@drawable/pis" />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                    android:id="@+id/dots_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:dotsColor="@color/Gray"
+                    app:dotsCornerRadius="@dimen/_16sdp"
+                    app:dotsSize="@dimen/_12sdp"
+                    app:dotsSpacing="5dp"
+                    app:dotsWidthFactor="2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/horizontal_scroll2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:progressMode="false"
+                    app:selectedDotColor="@color/pink" />
 
 
                 <ImageView
@@ -117,7 +222,7 @@
                     android:layout_marginTop="36dp"
                     android:src="@drawable/ic_like"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/card" />
+                    app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll2" />
 
                 <TextView
                     android:id="@+id/num_likes"
@@ -138,7 +243,7 @@
                     android:layout_marginTop="36dp"
                     android:src="@drawable/ic_comment"
                     app:layout_constraintStart_toEndOf="@+id/num_likes"
-                    app:layout_constraintTop_toBottomOf="@+id/card" />
+                    app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll2" />
 
                 <TextView
                     android:id="@+id/num_comment"
@@ -159,7 +264,7 @@
                     android:layout_marginTop="36dp"
                     android:src="@drawable/ic_share"
                     app:layout_constraintStart_toEndOf="@+id/num_comment"
-                    app:layout_constraintTop_toBottomOf="@+id/card" />
+                    app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll2" />
 
                 <TextView
                     android:id="@+id/num_share"
@@ -181,10 +286,17 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toEndOf="@+id/num_share"
-                    app:layout_constraintTop_toBottomOf="@+id/card" />
+                    app:layout_constraintTop_toBottomOf="@+id/horizontal_scroll2" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
