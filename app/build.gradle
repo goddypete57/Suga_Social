@@ -58,4 +58,8 @@ dependencies {
     //Page Indicator
     implementation 'com.tbuonomo:dotsindicator:4.2'
 
+//    clickable drawable edittext
+    implementation 'com.github.MindorksOpenSource:EditDrawableText:1.1.0'
+
+
 }

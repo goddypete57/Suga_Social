@@ -15,20 +15,25 @@
         <entry key="app/src/main/res/drawable/search.xml" value="0.122" />
         <entry key="app/src/main/res/drawable/shape.xml" value="0.122" />
         <entry key="app/src/main/res/drawable/yesteday_notification.xml" value="0.122" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.17571611799914494" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_message.xml" value="0.2" />
         <entry key="app/src/main/res/layout/chat_screen.xml" value="0.14" />
         <entry key="app/src/main/res/layout/comment_item.xml" value="0.16417272338606242" />
         <entry key="app/src/main/res/layout/fragment_comment.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_liked.xml" value="0.17571611799914494" />
         <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_profile2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_stories.xml" value="0.17571611799914494" />
+        <entry key="app/src/main/res/layout/fragment_tagged.xml" value="0.12" />
         <entry key="app/src/main/res/layout/message_item.xml" value="0.2" />
         <entry key="app/src/main/res/layout/message_reciver.xml" value="0.25" />
         <entry key="app/src/main/res/layout/post_item.xml" value="0.2140625" />
         <entry key="app/src/main/res/layout/profile_image.xml" value="0.2" />
         <entry key="app/src/main/res/layout/senders_message.xml" value="0.16417272338606242" />
+        <entry key="app/src/main/res/layout/stories_views.xml" value="0.18" />
         <entry key="app/src/main/res/layout/story_item.xml" value="0.17571611799914494" />
         <entry key="app/src/main/res/layout/today_notification.xml" value="0.22" />
         <entry key="app/src/main/res/layout/yest.xml" value="0.2" />

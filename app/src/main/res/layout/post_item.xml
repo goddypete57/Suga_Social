@@ -12,12 +12,12 @@
         android:padding="@dimen/_10sdp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/userImage"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
-            android:src="@drawable/profile2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/userImage"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:src="@drawable/profile2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView6"
